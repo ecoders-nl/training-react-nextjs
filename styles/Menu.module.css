@@ -1,0 +1,21 @@
+.list {
+  background: lightyellow;
+  display: flex;
+  padding: 20px;
+}
+.listitem {
+  flex: 1;
+  font-weight: 600;
+  list-style: none;
+  text-align: center;
+  transition: 0.3s;
+}
+.listitem:hover {
+  background: yellow;
+}
+.listitem a {
+  display: block;
+  height: 100%;
+  padding: 20px;
+  width: 100%;
+}
